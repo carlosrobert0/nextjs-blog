@@ -4,8 +4,8 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Espera Feliz'
-export const siteTitle = 'Espera Feliz'
+const name = 'Espera Feliz as notícias'
+export const siteTitle = 'Espera Feliz as notícias'
 
 export default function Layout({ children, home }: {
     children: React.ReactNode

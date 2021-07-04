@@ -36,7 +36,7 @@ export default function Home({ allPostsData }: {
           <a
             href="https://www.instagram.com/esperafeliz_" 
             target="_blank">Instagram
-          </a> e 
+          </a> | 
           <a
             href="https://www.facebook.com/zonadamatatemporeal" 
             target="_blank">&nbsp;Facebook
