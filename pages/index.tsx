@@ -16,17 +16,31 @@ export async function getStaticProps() {
   }
 }
 
-export default function Home({ allPostsData }) {
+export default function Home({ allPostsData }: { 
+  allPostsData: {
+    date: string
+    title: string
+    id: string
+  }[]
+ }) {
   return (
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
+          <p>Este é um portal de notícias de Espera Feliz e Região 
+          </p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          Siga-nos nas nossas redes sociais:&nbsp; 
+          <a
+            href="https://www.instagram.com/esperafeliz_" 
+            target="_blank">Instagram
+          </a> e 
+          <a
+            href="https://www.facebook.com/zonadamatatemporeal" 
+            target="_blank">&nbsp;Facebook
+          </a>
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
